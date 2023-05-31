@@ -1,0 +1,15 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clints",
+  "info": {
+    "singularName": "clint",
+    "pluralName": "clints",
+    "displayName": "clint",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}
