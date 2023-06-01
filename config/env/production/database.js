@@ -1,20 +1,6 @@
-const { parse } = require("pg-connection-string");
-
-module.exports = ({ env }) => {
-    const { host, port, database, user, password } = parse(env("DATABASE_URL"));
-
-    return {
-        connection: {
-            client: 'postgres',
-            connection: {
-                host,
-                port,
-                database,
-                user,
-                password,
-                ssl: { rejectUnauthorized: true },
-            },
-            debug: false,
-        },
-    }
-};
+module.exports = ({ env }) => ({
+    url: env("dpg-chrdbk3hp8ud4n4lsaj0-a.oregon-postgres.render.com"),
+    dirs: {
+        public: "/data/public"
+    },
+});
