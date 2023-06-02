@@ -7,7 +7,7 @@ module.exports = ({ env }) => ({
                 {
                     name: 'Site 1',
                     id: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
-                    buildHook: "https://api.netlify.com/build_hooks/<hook_id>",
+                    buildHook: "https://api.netlify.com/build_hooks/64793a868c2f8134237c6e94",
                     branch: 'main' // optional
                 }
             ]
