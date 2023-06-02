@@ -13,7 +13,7 @@
     "@localazy/strapi-plugin": "^0.1.14",
     "@strapi/plugin-i18n": "4.10.5",
     "@strapi/plugin-seo": "^1.9.0",
-    "@strapi/plugin-users-permissions": "4.10.5", 
+    "@strapi/plugin-users-permissions": "4.10.5",
     "@strapi/provider-upload-cloudinary": "^4.10.6",
     "@strapi/strapi": "4.10.5",
     "better-sqlite3": "8.0.1",
